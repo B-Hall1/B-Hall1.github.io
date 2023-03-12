@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 #navbar{
     position: fixed;
     width: 100%;
@@ -8,7 +10,7 @@
     #navbar .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     /* z-index: 1; */
     }
     
@@ -39,7 +41,13 @@
 
     body .pagetext p {
         padding-top: 100px;
+        font-family: 'Lato', sans-serif;
         /* font-size:500% */
+    }
+
+    .homepage {
+        padding-top: 100px;
+        text-align: center;
     }
 
     /* p {
