@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+
+* {
+    background-color: #89cff0;
+}
 #navbar{
     position: fixed;
     width: 100%;
@@ -12,6 +16,7 @@
     align-items: center;
     justify-content: space-evenly;
     /* z-index: 1; */
+    background-color: #000000;
     }
     
     /* #navbar .container .logo a{
@@ -29,6 +34,7 @@
     padding: 0.45rem;
     margin: 0.25rem;
     color: #c0c0c0;
+    background-color: #000000;
     }
     
     #navbar /*.menu li*/ a:hover{
@@ -39,17 +45,38 @@
         color: #000000;
     }
 
-    body .pagetext p {
+    body .pagetext {
         padding-top: 100px;
         font-family: 'Lato', sans-serif;
+        text-align: center;
         /* font-size:500% */
     }
 
     .homepage {
         padding-top: 100px;
+        font-family: 'Lato', sans-serif;
         text-align: center;
     }
 
     /* p {
         font-size: 500%;
+    } */
+
+    .about {
+        display: flex;
+        /* max-height: fit-content;
+        max-width: fit-content; */
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 50px;
+
+    }
+
+    .about img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    /* @media screen {
+        
     } */
