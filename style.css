@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* flex-wrap: wrap; */
     /* z-index: 1; */
     background-color: #000000;
     }
@@ -74,6 +75,22 @@
     }
 
     .about img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    .languages{
+        display: flex;
+        /* max-height: fit-content;
+        max-width: fit-content; */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 50px;
+
+    }
+
+    .languages img {
         max-height: 300px;
         max-width: 300px;
     }
