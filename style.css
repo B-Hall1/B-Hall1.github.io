@@ -66,6 +66,7 @@
         display: flex;
         /* max-height: fit-content;
         max-width: fit-content; */
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         padding-top: 50px;
