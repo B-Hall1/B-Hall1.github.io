@@ -95,6 +95,17 @@
         max-width: 300px;
     }
 
-    /* @media screen {
-        
-    } */
+   @media (max-width: 616px) {
+    .about img {
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .languages img {
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+   }
