@@ -65,8 +65,6 @@
 
     .about {
         display: flex;
-        /* max-height: fit-content;
-        max-width: fit-content; */
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
@@ -81,8 +79,6 @@
 
     .languages{
         display: flex;
-        /* max-height: fit-content;
-        max-width: fit-content; */
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
@@ -108,4 +104,39 @@
         margin-right: auto;
         width: 100%;
     }
+
+    .projects {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;  
+    }
    }
+
+   .contact1 {
+    padding-top: 100px;
+   }
+
+   .contact2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+   }
+   .contact2 img {
+    max-height: 256px;
+    max-width: 256px;
+   }
+
+   .projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-top: 10px; */
+   }
+
+   .projects img {
+    max-height: 300px;
+    max-width: 300px;
+}
